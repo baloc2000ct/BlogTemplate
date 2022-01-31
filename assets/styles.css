@@ -2,6 +2,46 @@
 .container {
     max-width: 1140px;
 }}
+@media (min-width: 768px){
+.col-md-6 {
+    -webkit-box-flex: 0;
+    
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+@media (min-width: 768px)
+{
+.h-md-250 {
+    height: 250px;
+}}
+@media (min-width: 768px){
+.flex-md-row {
+    -webkit-box-orient: horizontal!important;
+    -webkit-box-direction: normal!important;
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+}}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+   
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 .header{
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
@@ -22,7 +62,9 @@ a:hover{
 .text-dark:hover {
     color:black!important;
 }
-
+.btn-outline-primary:hover{
+    text-decoration: none;
+}
 
 
 .blog-header-logo {
@@ -58,6 +100,9 @@ a:hover{
 }
 .text-dark {
     color: #343a40!important;
+}
+.text-success {
+    color: #28a745!important;
 }
 
 .box-shadow {
